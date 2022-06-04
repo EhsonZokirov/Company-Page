@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.left {
+  opacity: 0.7;
+  width: 25%;
+  background-color: red;
+  height: 100vh;
+}
+.left h3 {
+  /* font-family: "Poppins"; */
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
+  padding-left: 40px;
+  color: white;
+  margin-bottom: 70px;
+}
+.left ul li {
+  list-style-type: none;
+  padding: 10px 0px 0px 0px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left a {
+  padding: 15px 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.left a:hover {
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.right {
+  width: 75%;
+  height: 100vh;
+  background-color: white;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.right h1 {
+  padding: 80px 0px 10px 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+.right h3 {
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 0px 0px 80px;
+  font-size: 40px;
+  color: red;
+}
+.image {
+  width: 100%;
+  padding-left: 78px;
+  height: auto;
+}
+img {
+  width: 300px;
+}
+img:hover {
+  opacity: 0.7;
+}
+hr {
+  margin: 30px 0 30px 80px;
+  width: 10px;
+  padding: 10px 40px 0px 0px;
+  color: white;
+  border-radius: 20px;
+  border: 0px solid red;
+  background-color: red;
+}
+.service {
+  padding: 5px 55px 0 80px;
+  margin-bottom: 80px;
+}
+#service {
+  margin-top: 80px;
+}
+
+.Designers {
+  padding: 5px 55px 0 80px;
+  margin-bottom: 80px;
+}
+.CardContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.content {
+  width: 30%;
+  background-color: antiquewhite;
+}
+.content img {
+  width: 100%;
+}
+
+.content h4,
+p {
+  padding: 10px;
+}
+.grey {
+  color: gray;
+}
+
+.backgrey {
+  background-color: rgb(236, 236, 236);
+}
+
+.paragraph {
+  padding: 10px 40px 0px 70px;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 10px;
+}
+.Basic {
+  width: 250px;
+  border: 1px solid gray;
+}
+.Basic h2 {
+  padding: 20px;
+  background-color: gray;
+  color: white;
+}
+.Basic p {
+  background-color: rgb(236, 236, 236);
+  font-size: 15px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.Basic h4 {
+  background-color: rgb(236, 236, 236);
+  font-size: 15px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.Basic span {
+  padding: 5px;
+  background-color: white;
+}
+.Basic span:hover {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+h5 {
+  background-color: rgb(236, 236, 236);
+  font-size: 40px;
+}
+.pro {
+  width: 250px;
+  border: 1px solid gray;
+  background-color: royalblue;
+}
+.pro h2 {
+  opacity: 0.9;
+  background-color: red;
+  color: white;
+  padding: 20px;
+}
+.pro p {
+  color: gray;
+  background-color: rgb(236, 236, 236);
+  font-size: 15px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.pro h4 {
+  background-color: rgb(236, 236, 236);
+  font-size: 15px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.pro span {
+
+  padding: 5px;
+  color: white;
+  background-color: red;
+}
+.pro span:hover{
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+#red {
+  opacity: 0.9;
+  background-color: rgb(240, 239, 239);
+}
+.contact {
+  margin-top: 50px;
+  text-align: center;
+}
+#name,
+#mail,
+#Message {
+  width: 450px;
+  padding: 15px;
+}
+label {
+  color: gray;
+  margin-right: 430px;
+}
+button {
+  opacity: 0.7;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 3px;
+  width: 485px;
+  padding: 10px;
+  border: 1px none;
+  color: white;
+  background-color: red;
+}
+button:hover {
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 3px;
+  width: 485px;
+  padding: 10px;
+  border: 1px none;
+  color: black;
+  background-color: gray;
+}
+.footer {
+  color: white;
+  font-size: 30px;
+  text-align: end;
+  margin-top: 80px;
+  padding: 100px;
+  background-color: lightgrey;
+  overflow-x: hidden;
+}
